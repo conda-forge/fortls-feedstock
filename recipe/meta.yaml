@@ -26,6 +26,7 @@ requirements:
     - importlib-metadata  # [py<38]
     - python
     - typing-extensions  # [py<38]
+    - packaging
 
 test:
   imports:
