@@ -29,6 +29,7 @@ requirements:
     - importlib-metadata  # [py<38]
     - python
     - typing-extensions  # [py<38]
+    - json5
     - packaging
 
 test:
