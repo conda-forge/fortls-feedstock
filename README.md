@@ -1,7 +1,7 @@
 About fortls
 ============
 
-Home: https://github.com/gnikit/fortls
+Home: https://github.com/fortran-lang/fortls
 
 Package license: MIT
 
