@@ -42,7 +42,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/gnikit/fortls
+  home: https://github.com/fortran-lang/fortls
   summary: fortls - Fortran Language Server
   license: MIT
   license_file: LICENSE

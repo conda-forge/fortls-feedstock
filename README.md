@@ -3,7 +3,7 @@ About fortls-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fortls-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/gnikit/fortls
+Home: https://github.com/fortran-lang/fortls
 
 Package license: MIT
 
