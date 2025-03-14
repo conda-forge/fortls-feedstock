@@ -1,20 +1,20 @@
 {% set name = "fortls" %}
-{% set version = "3.1.2" %}
+{% set version = "3.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fortls-{{ version }}.tar.gz
-  sha256: 93ea78598492ac699f7cefb624e89bf5012d44604d07fbe5ad4a31e32fc977bc
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fortls-{{ version }}.tar.gz
+  sha256: 4ec963d29977b57b7ce470986aba3ba26f40d08d96e358bb63f19c9a23f8a930
 
 build:
   skip: true  # [py<37]
   entry_points:
     - fortls = fortls.__init__:main
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   build:
